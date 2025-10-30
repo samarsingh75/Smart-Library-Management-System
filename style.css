@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.login-section, section {
+    background: white;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"], button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #005fa3;
+}
+
+nav {
+    background-color: #0078d7;
+    padding: 10px;
+}
+
+nav button, nav input[type="submit"] {
+    margin: 5px;
+    background-color: white;
+    color: #0078d7;
+    border: 1px solid #0078d7;
+}
+
+nav button:hover, nav input[type="submit"]:hover {
+    background-color: #005fa3;
+    color: white;
+}
+
+.logout-form {
+    display: inline;
+}
+
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+.book-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-list li {
+    background: #e7f0fc;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.book-list table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.book-list th, .book-list td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.book-list th {
+    background-color: #0078d7;
+    color: white;
+}
+
+.sold-out {
+    color: red;
+    font-weight: bold;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.not-found {
+    color: red;
+    font-weight: bold;
+}
