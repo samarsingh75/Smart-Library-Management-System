@@ -18,7 +18,8 @@ Database: MySQL
 
 Server: XAMPP
 
-🧾 How to Run This Project
+🧾 HOW TO RUN THIS PROJECT
+
 1️⃣ Download the Project
 
 Click the green Code button above
